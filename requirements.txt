@@ -1,0 +1,9 @@
+pip freeze > requirements.txt
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push
+
+requests
+gspread
+oauth2client
+pandas
